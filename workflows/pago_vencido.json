@@ -1,0 +1,10 @@
+{
+  "workflow_id": "pago_vencido",
+  "nombre": "Pago vencido",
+  "frases_disparadoras": [
+    "me olvide de pagar",
+    "no pague",
+    "cuota vencida",
+    "como pago"
+  ]
+}
