@@ -1,0 +1,10 @@
+{
+  "workflow_id": "consulta_cuota",
+  "nombre": "Consulta de cuota",
+  "frases_disparadoras": [
+    "cuota",
+    "deuda",
+    "estoy al dia",
+    "mi seguro esta pago"
+  ]
+}
