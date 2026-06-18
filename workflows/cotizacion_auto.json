@@ -1,5 +1,40 @@
 {
   "workflow_id": "cotizacion_auto",
-  "nombre": "Cotización Auto",
-  "estado": "activo"
+
+  "nombre": "Cotización Seguro Automotor",
+
+  "objetivo": "Obtener información suficiente para generar una cotización",
+
+  "pasos": [
+
+    {
+      "campo": "nombre",
+      "pregunta": "¿Cuál es tu nombre?"
+    },
+
+    {
+      "campo": "marca",
+      "pregunta": "¿Qué marca es el vehículo?"
+    },
+
+    {
+      "campo": "modelo",
+      "pregunta": "¿Qué modelo es?"
+    },
+
+    {
+      "campo": "anio",
+      "pregunta": "¿De qué año es?"
+    },
+
+    {
+      "campo": "uso",
+      "pregunta": "¿Es uso particular o comercial?"
+    },
+
+    {
+      "accion": "derivar_productor"
+    }
+
+  ]
 }
